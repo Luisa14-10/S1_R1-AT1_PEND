@@ -1,0 +1,21 @@
+body {
+      background-color: #f2f4f7;
+    }
+
+    header {
+      background-color: #0d3b66; /* Azul da logo */
+    }
+
+    .btn-custom {
+      background-color: #f77f00; /* Laranja da logo */
+      color: white;
+    }
+
+    .btn-custom:hover {
+      background-color: #d65f00;
+      color: white;
+    }
+
+    footer {
+      background-color: #0d3b66;
+    }
