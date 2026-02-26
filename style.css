@@ -1,21 +1,39 @@
 body {
-      background-color: #f2f4f7;
-    }
+  background-color: #EDF7F6;
+}
 
-    header {
-      background-color: #0d3b66; /* Azul da logo */
-    }
+header {
+  background-color: #C47335;
+  /* Azul da logo */
+}
 
-    .btn-custom {
-      background-color: #f77f00; /* Laranja da logo */
-      color: white;
-    }
+.btn-custom {
+  background-color: #C47335;
+  /* Laranja da logo */
+  color: white;
+}
 
-    .btn-custom:hover {
-      background-color: #d65f00;
-      color: white;
-    }
+.btn-custom:hover {
+  background-color: #C47335;
+  color: white;
+}
 
-    footer {
-      background-color: #0d3b66;
-    }
+footer {
+  background-color: #C47335;
+}
+
+#img-header {
+  width: 15%;
+}
+
+@media (min-height: 200px) {
+  #img-header {
+    width: 10%;
+  }
+}
+
+@media (min-height: 400px) {
+  #img-header {
+    width: 5%;
+  }
+}
